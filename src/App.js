@@ -1,9 +1,9 @@
-import Card from './components/card';
+import Container from './components/container';
 
 function App() {
   return (
     <div>
-      <Card/>
+      <Container />
     </div>
   );
 }
