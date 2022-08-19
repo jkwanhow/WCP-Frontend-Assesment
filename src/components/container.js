@@ -12,9 +12,12 @@ function Container(){
     console.log(content);
     return(
         <div className='container'>
+            <Card data={content[0]}/>
+            {/*
             {content.map((information) =>
                 <Card data={information} />
             )}
+            */}
             
         </div>
     )
