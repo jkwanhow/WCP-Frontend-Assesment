@@ -1,7 +1,28 @@
 .container {
-    width: 95%;
-    height: 95%;
-    border: 2px solid black;
-    position: absolute;
+    width: 95vw;
+    height: 95vh;
+    /*border: 2px solid black;*/
     margin-left: 2.5%;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+}
+
+.outerBound {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+
+}
+
+button {
+    margin-top: -1%;
+    margin-left: 25%;
+    width: 50vw;
+    height: 4.5vh;
+    border-radius: 10px;
+    border: 1px solid #1d363d;
+    background-color: #df8832;
+}
+
+button:hover {
+    background-color: #E69C53;
 }
