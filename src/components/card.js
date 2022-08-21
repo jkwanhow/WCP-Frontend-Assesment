@@ -26,7 +26,7 @@ function Card(props) {
                     {props.data &&
                     <div>
                         <div className="backTextContainer">
-                            <div className="title">Extra Information</div>
+                            <div className="title back">Extra Information</div>
                             <div className="line"/>
                             <div className="text"><b>Username:</b> {props.data.username}</div>
                             <div className="text"><b>Password:</b> {props.data.password}</div>
@@ -34,14 +34,14 @@ function Card(props) {
                             <div className="text"><b>Social Insurance Number:</b> {props.data.social_insurance_number}</div>
                         </div>
                         <div className="backTextContainer">
-                            <div className="title">Payment Information</div>
+                            <div className="title back">Payment Information</div>
                             <div className="line"/>
                             <div className="text"><b>Payment Method:</b> {props.data.subscription.payment_method}</div>
                             <div className="text"><b>Payment Term:</b> {props.data.subscription.term}</div>
                             <div className="text"><b>Credit Card:</b> {props.data.credit_card.cc_number}</div>
                         </div>
                         <div className="backTextContainer">
-                            <div className="title">Location Information</div>
+                            <div className="title back">Location Information</div>
                             <div className="line"/>
                             <div className="text"><b>Address:</b> <span className='smaller'>{props.data.address.street_address}, {props.data.address.street_name}
                             , {props.data.address.city}, {props.data.address.zip_code} {props.data.address.state}, {props.data.address.country}</span></div>
